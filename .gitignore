@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment variables and settings
+.env
+*.env
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and runtime data
+*.log
+*.pid
+
+# PyAutoGUI screenshots (if using fail-safe screenshots for debugging)
+*.png
+
+# IDEs and editors
+.idea/
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-generated files
+*.swp
+*.swo
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.bak
+*.tmp
+
+# Large files
+*.mp4
+*.avi
+*.mkv
+*.webm
+*.mov
+
+# Specific to OpenCV if processing temporary images
+*.jpg
+*.jpeg
+*.bmp
+
+# Ignore camera captures or debug files
+capture_*.*
+output.*
+
+# Ignore Python packages installed via pip
+*.whl
+
+# Git-specific
+.git/
